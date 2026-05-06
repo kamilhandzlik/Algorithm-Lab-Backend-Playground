@@ -5,6 +5,7 @@ Category: Binary Search
 
 Time Complexity: O(log n)
 Space Complexity: O(1)
+
 """
 import random
 import unittest
