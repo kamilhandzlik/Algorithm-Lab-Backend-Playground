@@ -6,7 +6,7 @@ Category: Arrays / HashMap / Strings
 Time Complexity: O(n * k log k)
 k = average word length
 
-Space Complexity: O(n).
+Space Complexity: O(n)..
 """
 import unittest
 import random
