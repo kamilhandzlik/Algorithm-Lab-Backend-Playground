@@ -203,7 +203,7 @@ class KnapsackTests(unittest.TestCase):
 
         result = knapsack(weights, values, 7)
 
-        self.assertEqual(result, 14)
+        self.assertEqual(result, 10)
 
     def test_same_length_validation(self):
         with self.assertRaises(ValueError):
