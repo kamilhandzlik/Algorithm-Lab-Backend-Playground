@@ -192,8 +192,6 @@ def word_break(text, dictionary):
     return dp[len(text)]
 
 
-
-
 class WordBreakTests(unittest.TestCase):
 
     def test_basic_case(self):
@@ -275,8 +273,6 @@ class WordBreakTests(unittest.TestCase):
         )
 
         self.assertFalse(result)
-
-
 
 
 class WordBreakRandomTests(unittest.TestCase):
